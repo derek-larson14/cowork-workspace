@@ -21,13 +21,11 @@ Check if `scratch/.setup-complete` exists. If it doesn't, this is a fresh worksp
 
    You can also just type tasks directly in the Co-Work chat. Both work.
 
-4. **Learn about the user.** Ask what they're working on, what kind of work they want to hand off, and how they like to work. Use their answers to fill in the [brackets] sections in this file.
+4. **Create files.** Offer to create a `tasks.md` and `delegation.md` if they want to track things. If they're mostly working through the chat and voice, files get created as needed -- no need to scaffold upfront. If they plan to use [Obsidian](https://obsidian.md) alongside Co-Work (both work on the same folder), the files are useful for tracking things visually.
 
-5. **Create files.** Based on the conversation, offer to create files that make sense for their situation. If they plan to use [Obsidian](https://obsidian.md) alongside Co-Work (both work on the same folder), a `tasks.md` and `delegation.md` are useful for tracking things visually. If they're mostly working through the chat and voice, files get created as needed -- no need to scaffold upfront.
+5. **Mark setup complete.** Write `scratch/.setup-complete` so this doesn't run again.
 
-6. **Mark setup complete.** Write `scratch/.setup-complete` so this doesn't run again.
-
-After setup, suggest they try `/morning` for a first taste.
+After setup, suggest they try `/morning` for a quick briefing. Let them know: "Drop me a message anytime about what you're working on and I'll update this file so I have better context for future conversations."
 
 ---
 
