@@ -15,9 +15,9 @@ Check if `scratch/.setup-complete` exists. If it doesn't, this is a fresh worksp
    - Click **Add marketplace from GitHub**
    - Paste: `derek-larson14/delegate-plugins`
    - Install **delegate-cowork** (slash commands: /morning, /weekly, /mail, /calendar, /meeting, /editors, /research)
-   - Install **dispatch** (voice delegation: /dispatch:work, /dispatch:route)
+   - Install **pigeon** (voice delegation: /pigeon:work, /pigeon:route)
 
-3. **Voice delegation.** Our preferred way to delegate is through async voice notes. [Dispatch](https://dispatch.newyorkai.org) is a voice app that records what you want done and uploads transcripts to Google Drive. Claude picks them up through the Google Drive connector and acts on them. Download Dispatch on your phone ([Android](https://play.google.com/store/apps/details?id=com.getdispatch.app) or [iOS TestFlight](https://testflight.apple.com/join/1Rj5UdJx)), connect it to Google Drive in the app settings, and you're set. Then use `/dispatch:work` to have Claude read transcripts and execute, or `/dispatch:route` to sort ideas into the right files.
+3. **Voice delegation.** Our preferred way to delegate is through async voice notes. [Pigeon](https://pigeon.newyorkai.org) is a voice app that records what you want done and uploads transcripts to Google Drive. Claude picks them up through the Google Drive connector and acts on them. Download Pigeon on your phone ([Android](https://play.google.com/store/apps/details?id=com.getdispatch.app) or [iOS TestFlight](https://testflight.apple.com/join/1Rj5UdJx)), connect it to Google Drive in the app settings, and you're set. Then use `/pigeon:work` to have Claude read transcripts and execute, or `/pigeon:route` to sort ideas into the right files.
 
    You can also just type tasks directly in the Co-Work chat. Both work.
 
@@ -41,7 +41,7 @@ After setup, suggest they try `/morning` for a quick briefing. Let them know: "D
 
 Claude handles research, code, data analysis, file organization, setup, prototyping, summarization, and exploration. The user handles decisions, relationships, outreach, pricing, strategy, and writing first drafts -- anything that needs their voice or judgment.
 
-The preferred way to delegate is through voice notes via Dispatch. Record what you want done, and Claude picks it up from Google Drive. You can also give tasks directly in the Co-Work chat.
+The preferred way to delegate is through voice notes via Pigeon. Record what you want done, and Claude picks it up from Google Drive. You can also give tasks directly in the Co-Work chat.
 
 `scratch/` is Claude's working space for research notes and analysis.
 
