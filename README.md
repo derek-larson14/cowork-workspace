@@ -15,9 +15,16 @@ The first time you start a conversation, Claude reads the CLAUDE.md and walks yo
 ## What's Inside
 
 - `CLAUDE.md` - Guided first-run setup + context about how you work
-- `scratch/` - Claude's working space for research and notes
+- `delegation.md` - Claude's task queue (`/delegate`)
+- `tasks.md` - Your tasks
+- `roadmap.md` - Goals and milestones
+- `meetings/` - Meeting notes (`/meeting`)
+- `scratch/` - Claude's working notes and research
+- `archive/` - Finished delegation items
+- `ops/logs/weekly/` - Saved `/weekly` reviews
+- `finances/` - For money tracking once you connect Era
 
-Files like `tasks.md` and `delegation.md` get created during setup based on how you want to work. You can open this folder in [Obsidian](https://obsidian.md) to browse and edit files alongside Co-Work.
+Open this folder in [Obsidian](https://obsidian.md) to browse and edit alongside Co-Work.
 
 ## Connectors
 
